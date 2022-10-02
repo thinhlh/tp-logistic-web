@@ -1,0 +1,89 @@
+#landing-first-view {
+  max-height: 100vh;
+}
+
+#landing-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+
+#landing-logo {
+  margin: 2% 1% 1% 2%;
+  width: 15%;
+}
+
+#landing-navigation {
+  display: flex;
+  flex-grow: 0.5;
+  justify-content: space-around;
+}
+
+.landingNavigationSection {
+  color: #bfbfbf;
+}
+
+.landingNavigationSection:hover {
+  color: #f1f1f1;
+}
+
+#landing-intro {
+  margin-top: 5%;
+  margin-left: 2%;
+  display: flex;
+}
+
+#landing-intro-text {
+  margin-top: 2%;
+  max-width: 50%;
+  min-width: 30%;
+  position: relative;
+}
+
+#landing-intro h2 {
+  color: #f1f1f1;
+}
+
+#landing-intro h5 {
+  color: #bfbfbf;
+  max-width: 80%;
+  font-weight: normal;
+}
+
+#landing-logistic-intro-image {
+  width: 60%;
+  transform: translateY(-20%);
+  margin-right: 3%;
+  margin-top: 0;
+}
+
+#landing-intro-buttons {
+  margin-top: 10%;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appButton {
+  border-radius: 5px;
+  padding: 4% 8%;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.positiveButton {
+  border: none;
+  background-color: #00adb5;
+}
+
+.negativeButton {
+  background-color: transparent;
+  border: 2px solid #00adb5;
+}
+
+#landing-under-intro-text {
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 0px;
+}
